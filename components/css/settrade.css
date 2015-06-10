@@ -1,0 +1,135 @@
+.set-bg-font
+{
+	font-size: 21vw; 
+	z-index: -1; 
+	position: relative; 
+	color: #F4F9F7;
+	text-transform: uppercase;
+}
+.set-icon-up
+{
+	font-size: 9vh;
+    position: relative;
+}
+.set-blog-nvs
+{
+	text-align: center;
+}
+
+
+.container-fluid .set-bg-list
+{
+	background-color: #ededed;
+    border-radius: 6px;
+    display: inline-block;
+    /*float: right;*/
+    height: 100%;
+}
+
+.set-bg-list h4
+{
+	text-align: center;
+}
+
+/*.set-link-settrade
+{
+	padding-left: 1em;
+}
+
+.set-delete-settrade
+{
+	padding-right: 1em;
+}*/
+
+.set-blog-list
+{
+	padding: 1em;
+}
+
+.cursor_pointer
+{
+	cursor: pointer;
+}
+
+.set-blog-list:hover
+{
+	cursor: pointer;
+	color: #5983FF;
+}
+
+.set-blog-list:hover i
+{
+	cursor: pointer;
+	color: #D23631;
+}
+
+.set-delete-settrade
+{
+	float: right;
+}
+
+@media (max-width: 760px) {
+
+	.container-fluid .set-bg-list
+	{
+		margin-top: 4em;
+	}
+
+}	
+
+.table-alert .radio-option
+{
+	display: inline-block;
+}
+
+.table-alert .radio-option input
+{
+	 margin: -2px 0 0 5px;
+}
+
+.table-alert td
+{
+	height: 3em;
+}
+
+.table-alert .th-input
+{
+	width: 7em;
+}
+
+.table-alert .th-input input
+{
+	width: 4em;
+}
+
+.table-alert .center
+{
+	text-align: center;
+}
+
+.table-alert .right
+{
+	text-align: right;
+}
+
+.input_set_price 
+{
+	text-align: center;
+	background-color: #fff !important;
+    border: 0 none !important;
+    cursor: pointer !important;
+    box-shadow:0 0px 0px rgba(0, 0, 0, 0.075) inset !important;
+}
+
+.input_set_price:hover,.input_set_price:focus,
+{
+	background-color: #fff !important;
+    border: 1px solid #cccccc !important;
+    cursor: auto !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+}
+
+
+
+
+

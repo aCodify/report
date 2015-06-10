@@ -1,0 +1,5 @@
+# ignore file #
+###################
+config.php
+fbconfig.php
+!.gitignore
